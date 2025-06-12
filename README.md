@@ -9,11 +9,7 @@ This project implements a **Content-Based Movie Recommendation System** that sug
 - 📊 Scales numerical features like `vote_average` and `popularity`
 - 📈 Determines the **optimal number of clusters** using Elbow and Silhouette methods
 - 🧠 Applies **K-Means clustering** to segment similar movies
-- 🎯 Returns **top-N recommendations** based on a relevance score:
-  \[
-  \text{Score} = \text{vote\_average} \times \log(1 + \text{popularity})
-  \]
-
+- 🎯 Returns **top-N recommendations** based on a relevance score
 ## 📦 Tech Stack
 
 - **Language**: Python
